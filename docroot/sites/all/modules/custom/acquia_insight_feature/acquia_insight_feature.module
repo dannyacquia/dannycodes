@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Acquia Insight Feature feature.
+ */
+
+include_once 'acquia_insight_feature.features.inc';
