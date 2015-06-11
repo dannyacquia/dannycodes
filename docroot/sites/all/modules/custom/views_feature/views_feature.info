@@ -1,0 +1,14 @@
+name = Views Feature
+description = feature for views configuration
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = views_feature
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = personal_blog
+features[views_view][] = professional_blog
+features[views_view][] = tutorials
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/custom
