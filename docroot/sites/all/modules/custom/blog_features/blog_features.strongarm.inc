@@ -80,27 +80,14 @@ function blog_features_strongarm() {
       'search_result' => array(
         'custom_settings' => FALSE,
       ),
-      'token' => array(
-        'custom_settings' => FALSE,
-      ),
     ),
     'extra_fields' => array(
       'form' => array(
         'title' => array(
           'weight' => '0',
         ),
-        'path' => array(
-          'weight' => '30',
-        ),
       ),
-      'display' => array(
-        'disqus' => array(
-          'default' => array(
-            'weight' => '4',
-            'visible' => TRUE,
-          ),
-        ),
-      ),
+      'display' => array(),
     ),
   );
   $export['field_bundle_settings_node__blog'] = $strongarm;

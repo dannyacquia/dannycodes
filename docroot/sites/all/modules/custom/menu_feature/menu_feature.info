@@ -1,0 +1,16 @@
+name = Menu Feature
+description = feature for menu configuration
+core = 7.x
+package = Features
+version = 7.x-1.3-beta1
+project = menu_feature
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = features
+features[menu_custom][] = main-menu
+features[menu_custom][] = management
+features[menu_custom][] = navigation
+features[menu_custom][] = user-menu
+features[menu_links][] = management_administration-menu:admin/config/administration/admin_menu
+project path = sites/all/modules/custom

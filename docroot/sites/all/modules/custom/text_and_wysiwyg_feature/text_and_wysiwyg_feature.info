@@ -1,0 +1,15 @@
+name = Text and WYSIWYG Feature
+description = feature for text and wysiwyg config
+core = 7.x
+package = Features
+version = 7.x-1.2-beta1
+project = text_and_wysiwyg_feature
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = plain_text
+features[wysiwyg][] = full_html
+project path = sites/all/modules/custom
