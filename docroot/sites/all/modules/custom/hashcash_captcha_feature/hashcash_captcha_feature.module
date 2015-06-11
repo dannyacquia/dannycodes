@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hashcash Captcha Feature feature.
+ */
+
+include_once 'hashcash_captcha_feature.features.inc';
