@@ -119,14 +119,14 @@ function strongarm_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1433991078;
+  $strongarm->value = 1434009391;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nprfym';
+  $strongarm->value = 'nprsq0';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -194,9 +194,11 @@ function strongarm_feature_strongarm() {
     ),
     'blog_features' => array(
       'node' => '91448d68a86e5e5168669ece2843970f',
-      'variable' => 'd78cc61faa0f07d1279cbefc46d17ab4',
-      'field_instance' => '33f33d4a30f7f01c600137a2d30e30ad',
+      'variable' => '6d51f0b963ef83a8fabe807125681dd2',
+      'field_instance' => 'd82edfabe25429d82e89e6abdec32553',
       'dependencies' => '5e4cb779be5b89cfc6ecc7344edf3768',
+      'field_base' => '1da40c087eecd467e1a1c42850d4ffa9',
+      'taxonomy' => 'bf93e5638e07fb1e7fc14a39724254bf',
     ),
     'hashcash_captcha_feature' => array(
       'dependencies' => '90f2bbee245fa87a7cf31a26fc6264bb',
@@ -215,7 +217,7 @@ function strongarm_feature_strongarm() {
     ),
     'permissions_and_roles_feature' => array(
       'user_role' => '57d23ee3deb6e9262fa3b2617586b072',
-      'user_permission' => '81eba2e85eb183401ed83c283c6e2c5e',
+      'user_permission' => '083144520ec0c8275b98db1684231c17',
       'dependencies' => '0e26279b6ebcc2b88ecc3279728adf72',
     ),
     'text_and_wysiwyg_feature' => array(
@@ -224,8 +226,12 @@ function strongarm_feature_strongarm() {
       'dependencies' => 'c317658c8905b7a9253f47d99a416429',
     ),
     'strongarm_feature' => array(
-      'variable' => '1ee9d1ac0f2be3804bd55adc183eb6fe',
+      'variable' => 'a1c8ae5b32a2b1497135adcd17262760',
       'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
+    ),
+    'acquia_insight_feature' => array(
+      'variable' => '0de9450b8268337a6504c41cc153f082',
+      'dependencies' => '03950dd87d65a91fd1d2921347c16465',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -627,7 +633,7 @@ function strongarm_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1433991079;
+  $strongarm->value = 1434009394;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -650,7 +656,7 @@ function strongarm_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_pictures';
-  $strongarm->value = '1';
+  $strongarm->value = 1;
   $export['user_pictures'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -678,7 +684,7 @@ function strongarm_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_register';
-  $strongarm->value = 2;
+  $strongarm->value = '1';
   $export['user_register'] = $strongarm;
 
   $strongarm = new stdClass();
