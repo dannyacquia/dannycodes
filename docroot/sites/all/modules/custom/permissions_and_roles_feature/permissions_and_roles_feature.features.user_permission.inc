@@ -104,6 +104,26 @@ function permissions_and_roles_feature_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'access site-wide contact form'.
+  $permissions['access site-wide contact form'] = array(
+    'name' => 'access site-wide contact form',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'contact',
+  );
+
+  // Exported permission: 'access user contact forms'.
+  $permissions['access user contact forms'] = array(
+    'name' => 'access user contact forms',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'contact',
+  );
+
   // Exported permission: 'access user profiles'.
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
@@ -147,6 +167,15 @@ function permissions_and_roles_feature_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'comment',
+  );
+
+  // Exported permission: 'administer contact forms'.
+  $permissions['administer contact forms'] = array(
+    'name' => 'administer contact forms',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'contact',
   );
 
   // Exported permission: 'administer content types'.
@@ -458,6 +487,13 @@ function permissions_and_roles_feature_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
+  // Exported permission: 'delete terms in type_of_blog'.
+  $permissions['delete terms in type_of_blog'] = array(
+    'name' => 'delete terms in type_of_blog',
+    'roles' => array(),
+    'module' => 'taxonomy',
+  );
+
   // Exported permission: 'display drupal links'.
   $permissions['display drupal links'] = array(
     'name' => 'display drupal links',
@@ -532,6 +568,13 @@ function permissions_and_roles_feature_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
     ),
+    'module' => 'taxonomy',
+  );
+
+  // Exported permission: 'edit terms in type_of_blog'.
+  $permissions['edit terms in type_of_blog'] = array(
+    'name' => 'edit terms in type_of_blog',
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 
